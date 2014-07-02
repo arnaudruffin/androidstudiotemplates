@@ -27,6 +27,8 @@
 <!--je ne sais pas pourquoi, mais le merge ne fonctionne pas ici -->
       <instantiate from="gradle.properties.root.ftl" to="${escapeXmlAttribute(topOut)}/gradle.properties" />
       <instantiate from="gradle.properties.ftl" to="${escapeXmlAttribute(appOut)}/gradle.properties" />
+      
+      <instantiate from="gitignore_template" to="${escapeXmlAttribute(topOut)}/.gitignore" />
 
       
   <instantiate from="src/app_package/SimpleApplication.java.ftl" to="${escapeXmlAttribute(srcOut)}/MyApplication.java" />
