@@ -21,17 +21,38 @@
 
      <parameter
         id="isHugoProject"
-        name="Utiliser le debug log 'Hugo'"
+        name="Utiliser la librairie de debug log 'Hugo'"
         type="boolean"
         default="true"
         help="If true, annotation @DebugLog will be available" />
 
       <parameter
         id="isTimberProject"
-        name="Utiliser les logs 'Timber' "
+        name="Utiliser la librairie de logs 'Timber' "
         type="boolean"
         default="true"
         help="If True, logging via Timber will be available" />
+
+             <parameter
+        id="isOttoProject"
+        name="Utiliser la librairie de gestion d'évènement Otto "
+        type="boolean"
+        default="true"
+        help="If True, otto will be available" />
+
+             <parameter
+        id="isPicassoProject"
+        name="Utiliser la bibliothèque de gestion d'image Picasso "
+        type="boolean"
+        default="true"
+        help="If True, picasso will be available" />
+
+               <parameter
+        id="isCroutonProject"
+        name="Utiliser la bibliothèque de toast Crouton  "
+        type="boolean"
+        default="true"
+        help="If True, picasso will be available" />
 
     <parameter
         id="layoutName"

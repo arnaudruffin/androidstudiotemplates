@@ -1,9 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <application
-        <#if timberProj>
     	android:name=".MyApplication_"
-        </#if>
         >
         <activity android:name="${relativePackage}.${activityClass}_"
             <#if isNewProject>

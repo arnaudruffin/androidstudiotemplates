@@ -12,10 +12,11 @@ public class MyApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
+ <#if timberProj>
         //init log
         if (BuildConfig.DEBUG) {
             Timber.plant(new Timber.DebugTree());
         }
-
+</#if>
     }
 }

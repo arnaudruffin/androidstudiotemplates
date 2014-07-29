@@ -16,6 +16,9 @@
 
      <global id="hugoProj" type="boolean" value="${isHugoProject?string}" />
      <global id="timberProj" type="boolean" value="${isTimberProject?string}" />
+     <global id="ottoProj" type="boolean" value="${isOttoProject?string}" />
+      <global id="picassoProj" type="boolean" value="${isPicassoProject?string}" />
+      <global id="croutonProj" type="boolean" value="${isCroutonProject?string}" />
 
      <global id="mavenUrl" value="http://maven2.rd.francetelecom.fr/proxy/repository/public" />
      <global id="mavenUrl2" value="http://maven2.rd.francetelecom.fr/proxy/repository/inhouse" />
